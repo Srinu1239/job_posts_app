@@ -4,7 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can find:
+
+## SRC Directory
+   ## Components
+   This directory contains all User Authention and Job Posts related React  components and respective CSS files.
+   ## Services
+   This authServices file contains all useful utility functions for calling the backend API.
 
 ### `npm start`
 
