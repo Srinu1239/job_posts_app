@@ -1,0 +1,73 @@
+/* General Styles */
+div {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+button {
+  padding: 20px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  div {
+      padding: 15px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  button {
+      font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  div {
+      padding: 10px;
+  }
+
+  h2 {
+      font-size: 1.2em;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  textarea {
+      font-size: 0.85em;
+      padding: 8px;
+  }
+
+  button {
+      font-size: 0.9em;
+      padding: 10px;
+  }
+}

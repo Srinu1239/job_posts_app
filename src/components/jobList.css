@@ -1,0 +1,142 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Main container */
+div {
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px; 
+}
+
+/* Heading */
+h1 {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+}
+
+/* Add new job link */
+.goToRegisterLink {
+  display: inline-block;
+  width: 75%;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #4CAF50; 
+  color: white; 
+  border-radius: 5px; 
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.goToRegisterLink:hover {
+  background-color: #45a049; 
+}
+
+/* Search bar */
+.searchBar {
+  margin: 20px 0;
+  border-radius: 10px;
+  border-color: #d32f2f;
+}
+
+/* Job listings */
+ul {
+  list-style: none; 
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #dddddd; 
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+}
+
+li:hover {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* Job title */
+h2 {
+  font-size: 20px;
+  color: #333333;
+}
+
+/* Job requirements and location */
+p {
+  margin: 5px 0;
+  color: #666666; 
+}
+
+/* Buttons */
+button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit {
+  background-color: #2196F3; 
+}
+
+.edit:hover {
+  background-color: #1976D2; 
+}
+
+.delete {
+  background-color: #f44336; 
+}
+
+.delete:hover {
+  background-color: #d32f2f; 
+}
+
+/* Logout component */
+.logout {
+  width: 75%;
+  margin-top: 20px;
+  text-align: center; 
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout:hover {
+  background-color: #d32f2f; 
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  div {
+      padding: 15px; 
+  }
+
+  h1 {
+      font-size: 20px; 
+  }
+
+  .goToRegisterLink {
+      font-size: 14px; 
+  }
+
+  button {
+      width: 90%; 
+      margin: 5px 0; 
+  }
+}
